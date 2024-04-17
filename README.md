@@ -41,7 +41,11 @@ To set up first take the page.tsx file (it contains the actual Components) and p
 
 Import the components required in your workflow, *(The name of the component function is mentioned above)* 
 
-One final thing to keep in mind is to import (copy and paste) all of the global.css data into your CSS file as some of the component's properties are set up using custom CSS
+keep in mind is to import (copy and paste) all of the global.css data into your CSS file as some of the component's properties are set up using custom CSS
+
+
+
+One final thing To properly see some colors some specific custom colors were defined in the tailwind CSS config file so also make sure to update your tailwind CSS config file here it is:
 
 extend: {
       backgroundImage: {
@@ -56,9 +60,6 @@ extend: {
     },
 
 add the custom colors like this for the components to work properly
-
-To properly see some colors some specific custom colors were defined in the tailwind CSS config file so also make sure to update your tailwind CSS config file here it is:
-
 
 To see the preview of the components please take the images folder and place it in the "src" directory and inside the "app" directory make a new root group place the Preview Folder inside the root group, then run the preview using "npm run dev" to see the Preview
 
