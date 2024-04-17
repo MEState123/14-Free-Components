@@ -5,33 +5,33 @@ Please provide suggestions as there is always room for improvement and as a new 
 
 It contains the following 14 components:
 
-1 Info Card
+1 Info Card (Func: Info_card)
 
-2 Login Form
+2 Login Form (Func: Login_form)
 
-3 Contact Form
+3 Contact Form (Func: Contact_form)
 
-4 Navbar | Header
+4 Navbar | Header (Func: Navbar)
 
-5 Footer
+5 Footer (Func: Footer)
 
-6 Registration Form
+6 Registration Form (Func: Register_form)
 
-7 Company Features Display
+7 Company Features Display (Func: Features)
 
-8 Company Features | Qualities (Extended)
+8 Company Features | Qualities (Extended) (Func: )
 
-9 Search Bar Component
+9 Search Bar Component (Func: Search_bar)
 
-10 Single Client Testimonial
+10 Single Client Testimonial (Func: Single_client_testimonial)
 
-11 Multiple Clients Testimonial
+11 Multiple Clients Testimonial (Func: Testimonial_Card)
 
-12 Vertically Arranged Testimonials
+12 Vertically Arranged Testimonials (Func: Vertical_Testimonials)
 
-13 Faqs
+13 Faqs (Func: Faqs)
 
-14 Portfolio Showcase 
+14 Portfolio Showcase (Func: Portfolio_showcase)
 
 # Procedure
 
@@ -53,7 +53,7 @@ extend: {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      (*add this remove the brackets when applying*) -->colors:{
+      (*add this and remove the brackets when applying*) -->colors:{
         'custom-purple': '#380052',
         'custom-nav-color': "#5B006D",
       }, <-- till here
