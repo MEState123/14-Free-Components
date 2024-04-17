@@ -49,10 +49,10 @@ extend: {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      colors:{
+      add this remove the brackets when applying(colors:{
         'custom-purple': '#380052',
         'custom-nav-color': "#5B006D",
-      },
+      }),
     },
 
 add the custom colors like this for the components to work properly
