@@ -33,6 +33,40 @@ It contains the following 14 components:
 
 14 Portfolio Showcase 
 
+# Procedure
+
+To set up first take the page.tsx file (it contains the actual Components) and place it in a suitable directory of your choice
+
+*(Make sure that the entire next js environment is already setup and tailwind CSS is installed)* 
+
+Import the components required in your workflow, *(The name of the component function is mentioned above)* 
+
+One final thing to keep in mind is to import (copy and paste) all of the global.css data into your CSS file as some of the component's properties are set up using custom CSS
+
+extend: {
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      colors:{
+        'custom-purple': '#380052',
+        'custom-nav-color': "#5B006D",
+      },
+    },
+
+add the custom colors like this for the components to work properly
+
+To properly see some colors there are some specific custom colors that were defined in tailwind css config file so also make sure to update your tailwind css config file here it is:
+
+
+To see the preview of the components please take the images folder and place it in the "src" directory and inside the "app" directory make a new root group place the Preview Folder inside the root group, then run the preview using "npm run dev" to see the Preview
+
+# Procedure End
+
+
+# Attribution | Warnings
+*Please keep in mind that you can use these components both commercially and individually for free and there are no restrictions*
 *Please keep in mind that the images and icons are obtained from the following websites*:
 Images(Portfolio Website Images and other images): Vecteezy
 Icons: Flaticon
