@@ -49,15 +49,15 @@ extend: {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      add this remove the brackets when applying(colors:{
+      (*add this remove the brackets when applying*) -->colors:{
         'custom-purple': '#380052',
         'custom-nav-color': "#5B006D",
-      }),
+      }, <-- till here
     },
 
 add the custom colors like this for the components to work properly
 
-To properly see some colors there are some specific custom colors that were defined in tailwind css config file so also make sure to update your tailwind css config file here it is:
+To properly see some colors some specific custom colors were defined in the tailwind CSS config file so also make sure to update your tailwind CSS config file here it is:
 
 
 To see the preview of the components please take the images folder and place it in the "src" directory and inside the "app" directory make a new root group place the Preview Folder inside the root group, then run the preview using "npm run dev" to see the Preview
